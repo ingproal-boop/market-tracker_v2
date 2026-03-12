@@ -2,8 +2,11 @@ name: Wallapop Scraper
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Se ejecuta cada 30 minutos
-  workflow_dispatch:      # Permite ejecutarlo a mano cuando quieras
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
