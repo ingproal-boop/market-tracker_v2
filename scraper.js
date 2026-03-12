@@ -5,6 +5,7 @@ const fs = require('fs');
 const token = process.env.TELEGRAM_TOKEN;
 const chatId = process.env.TELEGRAM_CHAT_ID;
 const bot = new TelegramBot(token);
+bot.sendMessage(chatId, "✅ ¡Conexión establecida! El scraper de Seiko está funcionando.");
 
 const HISTORY_FILE = './history.json';
 const KEYWORD = 'seiko vintage';
