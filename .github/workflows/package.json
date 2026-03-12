@@ -1,0 +1,8 @@
+{"name": "wallapop-scraper",
+  "version": "1.0.0",
+  "description": "Busqueda automatica de Seiko Vintage",
+  "main": "scraper.js",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-telegram-bot-api": "^0.64.0"}}
